@@ -7,14 +7,15 @@
 </head>
 <body ng-app="myapp">
 	<div ng-controller="MainController" class="row well">
-		<h1>The homepage</h1>
-		{{ test }}
+		<div ng-view></div>
 	</div>
 </body>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-route.js"></script>
 <script type="text/javascript" src="../frontend/js/app.js"></script>
 <script type="text/javascript" src="../frontend/js/controllers/mainController.js"></script>
+<script type="text/javascript" src="../frontend/js/controllers/loginController.js"></script>
 </html>
