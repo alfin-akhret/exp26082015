@@ -16,7 +16,9 @@ the rest use pure angularJS
 def index():
 	return send_from_directory(app.static_folder, 'index.html')
 
-
+@app.route('/admin')
+def admin():
+	return send_from_directory(app.static_folder, 'pages/admin.html');
 
 if __name__ == '__main__':
 	app.run(debug=True)

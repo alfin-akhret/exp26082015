@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Homepage</title>
+	<title>Admin page</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 </head>
 <body ng-app="myapp">
-	<div ng-controller="MainController">
-		<!-- load partial view disini -->
-		<div ng-view></div>
+	<div ng-controller="AdminController">
+		hi admin!
 	</div>
 </body>
 
@@ -19,5 +18,5 @@
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-cookies.js"></script>
 <script type="text/javascript" src="../frontend/js/app.js"></script>
 <script type="text/javascript" src="../frontend/js/controllers/mainController.js"></script>
-<script type="text/javascript" src="../frontend/js/controllers/loginController.js"></script>
+<script type="text/javascript" src="../frontend/js/controllers/adminController.js"></script>
 </html>
